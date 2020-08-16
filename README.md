@@ -44,3 +44,35 @@ Bonus point: Test execution on Docker instances
 Finish up
 ---------
 Once you're finished, commit & push your changes, send us a link to your fork.
+
+
+
+
+How to set up and execute tests 
+==============================
+set java (download and set 'environment variables')
+set maven (download and set 'environment variables')
+set allure (download and set 'environment variables')
+
+for allure execute: allure serve {path to allure-results} (for example : allure serve project_path\valtech\allure-results)
+--------
+
+Drivers
+---------
+Drivers located in 'drivers' folder
+firefox  ver 68.9
+chrome   ver 84
+edge     ver 84
+
+Uncomment row with needed browser for run (default  <parameter name="browser" value="chrome"/>)
+
+Run
+---------
+right click on testng.xml file and run it
+or
+execute coommand in Terminal:
+"mvn clean test"
+
+
+
+

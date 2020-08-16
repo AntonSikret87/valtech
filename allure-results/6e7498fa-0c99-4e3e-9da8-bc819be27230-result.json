@@ -1,0 +1,66 @@
+{
+  "name": "test",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "browser",
+      "value": "chrome"
+    }
+  ],
+  "start": 1597573059086,
+  "stop": 1597573068460,
+  "uuid": "6e7498fa-0c99-4e3e-9da8-bc819be27230",
+  "historyId": "c7385d8c78fb5e35a9922e78e3a5ef9",
+  "fullName": "valtech.com.core.ValtechTests.test",
+  "labels": [
+    {
+      "name": "package",
+      "value": "valtech.com.core.ValtechTests"
+    },
+    {
+      "name": "testClass",
+      "value": "valtech.com.core.ValtechTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "test"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Class1Suite"
+    },
+    {
+      "name": "suite",
+      "value": "Class1Test"
+    },
+    {
+      "name": "subSuite",
+      "value": "valtech.com.core.ValtechTests"
+    },
+    {
+      "name": "host",
+      "value": "EPUAKYIW3347"
+    },
+    {
+      "name": "thread",
+      "value": "20396@EPUAKYIW3347.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": []
+}

@@ -1,0 +1,12 @@
+{
+  "uuid": "e328d056-2d57-46ac-8616-e818007d23ee",
+  "name": "Class1Suite",
+  "children": [
+    "68d9673c-9813-4862-b396-78d2040cce2b"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1597575324729,
+  "stop": 1597575343249
+}

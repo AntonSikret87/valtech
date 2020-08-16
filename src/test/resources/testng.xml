@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Class1Suite" parallel="false">
+    <test name="Class1Test">
+        <!--       ver 68.9-->
+        <!--        <parameter name="browser" value="firefox"/>-->
+        <!--       ver 84-->
+        <parameter name="browser" value="chrome"/>
+        <!--       ver 84-->
+        <!--        <parameter name="browser" value="edge"/>-->
+        <classes>
+            <class name="valtech.com.core.ValtechTests"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,36 @@
+{
+  "uuid": "2109c441-a20b-4e99-a2fc-66e4ea14b22f",
+  "name": "valtech.com.core.ValtechTests",
+  "children": [
+    "b08a09de-dc5a-4478-b635-d8d11bad4c7d"
+  ],
+  "befores": [
+    {
+      "name": "setUp",
+      "status": "passed",
+      "stage": "finished",
+      "description": "",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1597565494180,
+      "stop": 1597565502055
+    }
+  ],
+  "afters": [
+    {
+      "name": "tearDown",
+      "status": "passed",
+      "stage": "finished",
+      "description": "",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1597565510754,
+      "stop": 1597565511392
+    }
+  ],
+  "links": [],
+  "start": 1597565494134,
+  "stop": 1597565511412
+}

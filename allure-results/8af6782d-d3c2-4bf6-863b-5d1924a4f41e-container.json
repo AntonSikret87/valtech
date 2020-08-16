@@ -1,0 +1,12 @@
+{
+  "uuid": "8af6782d-d3c2-4bf6-863b-5d1924a4f41e",
+  "name": "Class1Test",
+  "children": [
+    "6e7498fa-0c99-4e3e-9da8-bc819be27230"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1597573050616,
+  "stop": 1597573069583
+}

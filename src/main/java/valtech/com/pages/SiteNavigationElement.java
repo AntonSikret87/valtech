@@ -14,7 +14,7 @@ public class SiteNavigationElement extends BasePage {
 
     private static final String DISPLAY = "display";
     private static final String FLEX = "flex";
-    private final static String HAMBURGER_MENU_ITEM_BY_NAME_PATTERN = ".//button[@type='button' and contains(.,'%s')]";
+    private static final String HAMBURGER_MENU_ITEM_BY_NAME_PATTERN = ".//button[@type='button' and contains(.,'%s')]";
 
     @FindBy(css = ".icon-menu")
     private WebElement hamburgerMenuButton;
@@ -46,7 +46,9 @@ public class SiteNavigationElement extends BasePage {
     }
 
     public List<String> getMainHamburgerItemsList() {
-        return mainHamburgerItemList.stream().map(WebElement::getText).collect(Collectors.toList());
+        return mainHamburgerItemList.stream()
+                .map(WebElement::getText)
+                .collect(Collectors.toList());
     }
 
 }

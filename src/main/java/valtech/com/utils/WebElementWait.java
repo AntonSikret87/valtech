@@ -12,7 +12,7 @@ public class WebElementWait {
     private WebDriverWait webDriverWait;
 
     public WebElementWait(WebDriver driver) {
-        webDriverWait = new WebDriverWait(driver, 30);
+        webDriverWait = new WebDriverWait(driver, 25);
     }
 
     public WebElement waitVisibilityOf(WebElement webElement) {

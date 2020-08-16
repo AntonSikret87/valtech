@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
 
 import static java.lang.String.format;
 
-public class SiteNavigationMainContainer extends BasePage {
+public class SiteNavigationMainContainerElement extends BasePage {
 
     @FindBy(xpath = ".//h3/following-sibling::a[contains(@class,'button')][contains(.,'Our Partners')]")
     private WebElement topOurPartnerButton;
@@ -18,7 +18,7 @@ public class SiteNavigationMainContainer extends BasePage {
     private static final String PARTNERS_LIST_NAME_BY_SECTION_NAME_PATTERN =
             ".//hgroup[@class='partners-block__title'][contains(.,'%s')]//following-sibling::div/a[@class='partners-block__logo']";
 
-    public SiteNavigationMainContainer(WebDriver driver) {
+    public SiteNavigationMainContainerElement(WebDriver driver) {
         super(driver);
     }
 
@@ -26,7 +26,7 @@ public class SiteNavigationMainContainer extends BasePage {
         waitVisibilityOf(topOurPartnerButton).click();
     }
 
-    public List<String> getPartnersNameBySectionName(String sectionName) { //List<String>
+    public List<String> getPartnersNameBySectionName(String sectionName) {
         By partnersNameListLocator = By.xpath(format(PARTNERS_LIST_NAME_BY_SECTION_NAME_PATTERN, sectionName));
         List<String> partnerNames = driver.findElements(partnersNameListLocator).stream()
                 .map(el -> {
